@@ -18,5 +18,5 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual([1, 2, 3] + [4, 5, 6], [1, 2, 3, 4, 5, 6])
 
 
-if name == '__main__':
+if __name__ == '__main__':
     unittest.main()
