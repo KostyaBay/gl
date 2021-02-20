@@ -15,11 +15,10 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(2*[1, 3, 5], [1, 3, 5, 1, 3, 5])
    
     def test_kostiantyn_baievskyi_fi_93(self):
-        list_1 = [1,2,3
+        list_1 = [1,2,3]
         list_2 = [4,5,6]
         list_3 = [1,2,3,4,5,6]
         self.assertEqual(list_1+list_2, list_3)
-        self.assertEqual(list_1+list_3, list_2
 
 if __name__ == '__main__':
     unittest.main()
