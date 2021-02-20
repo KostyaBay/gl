@@ -18,7 +18,7 @@ class TestListMethods(unittest.TestCase):
         list_1 = [1, 2, 3]
         list_2 = [4, 5, 6]
         list_3 = [1, 2, 3, 4, 5, 6]
-        self.assertEqual(list_1+list_2, list_3)
+        self.assertEqual(list_1 + list_2, list_3)
 
 if __name__ == '__main__':
     unittest.main()
